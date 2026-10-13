@@ -1,0 +1,21 @@
+{
+  "defaults": {
+    "SCN_TAG": "B",
+    "STRESS": true,
+    "START_INDEX": 1
+  },
+  "customers": [
+    {
+      "name": "customer1",
+      "scenario_input": "DS109~31-DEC-25~QMMF_202512_IBL"
+    },
+    {
+      "name": "customer2",
+      "scenario_input": "DS109~31-MAR-26~QMMF_202603_IBL"
+    },
+    {
+      "name": "customer3",
+      "scenario_input": "DS109~30-JUN-26~QMMF_202606_IBL"
+    }
+  ]
+}

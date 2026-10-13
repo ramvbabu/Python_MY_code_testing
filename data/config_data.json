@@ -1,0 +1,96 @@
+[
+    {
+        "ID": "1",
+        "CONFIG_NAME": "Q3_23 IBL to Q3_23 IMS",
+        "RUN_ID": "3Q_23_June_IBL_IMS",
+        "ENABLE_ADJ": "Yes",
+        "VISIBLE": "Yes",
+        "SCEN_C": {
+            "SCENARIO_ROLLING": "QMMF_202306_IBL",
+            "DATASET_ID": "DS2",
+            "AS_OF_DATE": "30-JUN-23",
+            "DISPLAY_NAME": "Q3_23 IBL",
+            "START_INDEX": "1",
+            "STRESS": "FALSE"
+        },
+        "SCEN_A": {
+            "SCENARIO_ROLLING": "QMMF_202306_IBL",
+            "DATASET_ID": "DS2",
+            "AS_OF_DATE": "30-JUN-23",
+            "DISPLAY_NAME": "Q3_23 IBL",
+            "START_INDEX": "1",
+            "STRESS": "FALSE"
+        },
+        "SCEN_B": {
+            "SCENARIO_ROLLING": "QMMF_202306_IMS",
+            "DATASET_ID": "DS2",
+            "AS_OF_DATE": "30-JUN-23",
+            "DISPLAY_NAME": "Q3_23 IMS",
+            "START_INDEX": "1",
+            "STRESS": "TRUE"
+        }
+    },
+    {
+        "ID": "2",
+        "CONFIG_NAME": "2Q_24_IBL to 2Q_24_ISA",
+        "RUN_ID": "2Q_24_IBL_2Q_24_ISA_NAS",
+        "ENABLE_ADJ": "Yes",
+        "VISIBLE": "Yes",
+        "SCEN_C": {
+            "SCENARIO_ROLLING": "QMMF_202403_IBL",
+            "DATASET_ID": "DS2",
+            "AS_OF_DATE": "31-MAR-24",
+            "DISPLAY_NAME": "2Q_IBL",
+            "START_INDEX": "1",
+            "STRESS": "FALSE"
+        },
+        "SCEN_A": {
+            "SCENARIO_ROLLING": "QMMF_202403_IBL",
+            "DATASET_ID": "DS2",
+            "AS_OF_DATE": "31-MAR-24",
+            "DISPLAY_NAME": "",
+            "START_INDEX": "1",
+            "STRESS": "FALSE"
+        },
+        "SCEN_B": {
+            "SCENARIO_ROLLING": "QMMF_202403_ISA",
+            "DATASET_ID": "DS2",
+            "AS_OF_DATE": "31-MAR-24",
+            "DISPLAY_NAME": "2Q_ISA",
+            "START_INDEX": "1",
+            "STRESS": "TRUE"
+        }
+    },
+    {
+        "ID": "3",
+        "CONFIG_NAME": "2Q_24_IBL to 2Q_24_ISA PY311",
+        "RUN_ID": "2Q_24_IBL_2Q_24_ISA_PY311",
+        "ENABLE_ADJ": "Yes",
+        "VISIBLE": "Yes",
+        "PRELOAD": "No",
+        "SCEN_C": {
+            "SCENARIO_ROLLING": "QMMF_202403_IBL",
+            "DATASET_ID": "DS2",
+            "AS_OF_DATE": "31-MAR-24",
+            "DISPLAY_NAME": "2Q_IBL",
+            "START_INDEX": "1",
+            "STRESS": "FALSE"
+        },
+        "SCEN_A": {
+            "SCENARIO_ROLLING": "QMMF_202403_IBL",
+            "DATASET_ID": "DS2",
+            "AS_OF_DATE": "31-MAR-24",
+            "DISPLAY_NAME": "2Q_IBL",
+            "START_INDEX": "1",
+            "STRESS": "FALSE"
+        },
+        "SCEN_B": {
+            "SCENARIO_ROLLING": "QMMF_202403_ISA",
+            "DATASET_ID": "DS2",
+            "AS_OF_DATE": "31-MAR-24",
+            "DISPLAY_NAME": "2Q_ISA",
+            "START_INDEX": "1",
+            "STRESS": "TRUE"
+        }
+    }
+]

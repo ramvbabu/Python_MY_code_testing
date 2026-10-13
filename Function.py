@@ -1,19 +1,23 @@
-import sys
-from pathlib import Path
-
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from Log_File import logger
 
-def sum(a, b):
-    return (a + b)
 
-a = int(input('Enter 1st number: '))
-b = int(input('Enter 2nd number: '))
+def add_numbers(a, b):
+    return a + b
 
-print(f'Sum of {a} and {b} is {sum(a, b)}')
-logger.info(f'Sum of {a} and {b} is {sum(a, b)}')
 
-#change push
-print("sairam")
-print("naresh")
-print("kumar")
+def main():
+
+    #change push
+    print("sairam")
+    print("naresh")
+    print("kumar")
+    a = float(input("Enter the first value: "))
+    b = float(input("Enter the second value: "))
+    total = add_numbers(a, b)
+    print(f"Sum of {a} and {b} is {total}")
+    logger.info("Sum of %s and %s is %s", a, b, total)
+    logger.info("Sum of %s and %s is %s", a, b, total)
+    logger.info("Sum of %s and %s is %s", a, b, total)
+        
+if __name__ == "__main__":
+    main()
