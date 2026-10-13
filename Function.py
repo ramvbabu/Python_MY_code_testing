@@ -16,8 +16,8 @@ def main():
     total = add_numbers(a, b)
     print(f"Sum of {a} and {b} is {total}")
     logger.info("Sum of %s and %s is %s", a, b, total)
-    logger.info("Sum of %s and %s is %s", a, b, total)
-    logger.info("Sum of %s and %s is %s", a, b, total)
+   
+   
         
 if __name__ == "__main__":
     main()
